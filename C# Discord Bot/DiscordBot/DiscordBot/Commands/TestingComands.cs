@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using DiscordBot.Models;
 using DSharpPlus.Entities;
 using DSharpPlus;
+using System.Text.Json;
+using MongoDB.Driver;
+using MongoDB.Bson;
 
 namespace DiscordBot.Commands
 {
@@ -216,7 +219,7 @@ namespace DiscordBot.Commands
                 {
                     DiscordActivity activity = new DiscordActivity();
                     DiscordClient discord = ctx.Client;
-                    string input = "With Meat Aggressively";
+                    string input = "With Websites";
                     activity.Name = input;
                     await discord.UpdateStatusAsync(activity);
                     return;
@@ -232,6 +235,88 @@ namespace DiscordBot.Commands
                 await ctx.Channel.SendMessageAsync($"{ctx.User.Mention} The Minecraft server ip is: 99.242.41.227:25565").ConfigureAwait(false);
 
 
+            }
+
+            [Command("Post")]
+            public async Task Post(CommandContext ctx, string a, string b)
+            {
+                Pushing(ctx, a,b);
+                Console.WriteLine($"\n{ctx.User.Username} Has initiated the POST command with:\nPost name: {a}.\nContents: {b}");
+                static async void Pushing(CommandContext ctx, string a, string b)
+                {
+                    MongoClient dbClient = new MongoClient("mongodb+srv://Gordon:gordo@csharpdb.llf1lah.mongodb.net/?retryWrites=true&w=majority");
+                    Console.WriteLine("Successfully connected to MongoDB");
+
+                    IMongoDatabase db = dbClient.GetDatabase("test");
+
+                    var blogsConnect = db.GetCollection<BsonDocument>("blogs");
+
+
+                    Blogs blogs = new Blogs();
+                    blogs.Blogheader = a;
+                    blogs.Blogpost = b;
+
+                    var doc = new BsonDocument
+                    {
+                        {"blogheader", $"{blogs.Blogheader}" },
+                        {"blogpost",$"{blogs.Blogpost}" }
+                    };
+
+
+                    Console.WriteLine(doc);
+                    blogsConnect.InsertOne(doc);
+
+                    await ctx.Channel.SendMessageAsync($"{ctx.User.Mention}, Your post has been successfully uploaded. You can view it here. http://www.itsaok.engineer/about").ConfigureAwait(false);
+
+                }
+            }
+
+            [Command("Cleanup")]
+            public async Task Cleanup(CommandContext ctx)
+            {
+                Deletion();
+                Console.WriteLine($"\n{ctx.User.Username} Has initiated the CLEANUP command.\n");
+                await ctx.Channel.SendMessageAsync($"Site has been cleaned.").ConfigureAwait(false);
+
+                static async void Deletion()
+                {
+                    MongoClient dbClient = new MongoClient("mongodb+srv://Gordon:gordo@csharpdb.llf1lah.mongodb.net/?retryWrites=true&w=majority");
+                    Console.WriteLine("Successfully connected to MongoDB");
+
+                    IMongoDatabase db = dbClient.GetDatabase("test");
+
+                    var blogsConnect = db.GetCollection<BsonDocument>("blogs");
+
+                    db.DropCollection("blogs");
+                    Console.WriteLine("Collection Dropped. . .");
+                    db.CreateCollection("blogs");
+                    Console.WriteLine("Collection Created. . .");
+
+
+                }
+            }
+
+            [Command("Delete")]
+            public async Task Delete(CommandContext ctx, string a)
+            {
+                DeleteByName(a);
+                await ctx.Channel.SendMessageAsync($"Post: {a} has been deleted.").ConfigureAwait(false);
+                Console.WriteLine($"\n{ctx.User.Username} Has initiated the DELETE command on post {a}\n" );
+                static async void DeleteByName(string a)
+                {
+                    MongoClient dbClient = new MongoClient("mongodb+srv://Gordon:gordo@csharpdb.llf1lah.mongodb.net/?retryWrites=true&w=majority");
+                    Console.WriteLine("Successfully connected to MongoDB");
+
+                    IMongoDatabase db = dbClient.GetDatabase("test");
+
+                    var blogsConnect = db.GetCollection<BsonDocument>("blogs");
+
+                    var filter = Builders<BsonDocument>.Filter.Eq("blogheader", a);
+
+                    blogsConnect.DeleteOne(filter);
+
+
+                }
             }
         }
     }
