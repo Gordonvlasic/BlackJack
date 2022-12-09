@@ -4921,31 +4921,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gordo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/gordonvlasic/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
+      "projectUniqueName": "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/DiscordBot.csproj",
       "projectName": "DiscordBot",
-      "projectPath": "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
-      "packagesPath": "C:\\Users\\gordo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\obj\\",
+      "projectPath": "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/DiscordBot.csproj",
+      "packagesPath": "/Users/gordonvlasic/.nuget/packages/",
+      "outputPath": "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gordo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/gordonvlasic/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4997,7 +4991,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -266,8 +266,19 @@ namespace DiscordBot.Commands
                     Console.WriteLine(doc);
                     blogsConnect.InsertOne(doc);
 
-                    await ctx.Channel.SendMessageAsync($"{ctx.User.Mention}, Your post has been successfully uploaded. You can view it here. http://www.itsaok.engineer/about").ConfigureAwait(false);
 
+                    var postEmbed = new DiscordEmbedBuilder
+                    {
+                        Title = $"{ctx.User.Username} Your Post Is Successful",
+                        Description = "Your post and its contents have been successfully published.",
+                        Url = "http://www.itsaok.engineer/about",
+                        Color = DiscordColor.Violet,
+                        
+                    };
+                    var button = new DiscordLinkButtonComponent("http://www.itsaok.engineer/about", "Check Your Post Here!");
+                    var message = new DiscordMessageBuilder().AddEmbed(embed: postEmbed).AddComponents(button);
+
+                    await ctx.Channel.SendMessageAsync(builder: message).ConfigureAwait(false);
                 }
             }
 
@@ -276,8 +287,8 @@ namespace DiscordBot.Commands
             {
                 Deletion();
                 Console.WriteLine($"\n{ctx.User.Username} Has initiated the CLEANUP command.\n");
-                await ctx.Channel.SendMessageAsync($"Site has been cleaned.").ConfigureAwait(false);
-
+                var message = new DiscordMessageBuilder().WithContent($"{ctx.User.Username} Has Reset The Site");
+                await ctx.Channel.SendMessageAsync(builder: message).ConfigureAwait(false);
                 static async void Deletion()
                 {
                     MongoClient dbClient = new MongoClient("mongodb+srv://Gordon:gordo@csharpdb.llf1lah.mongodb.net/?retryWrites=true&w=majority");
@@ -300,8 +311,9 @@ namespace DiscordBot.Commands
             public async Task Delete(CommandContext ctx, string a)
             {
                 DeleteByName(a);
-                await ctx.Channel.SendMessageAsync($"Post: {a} has been deleted.").ConfigureAwait(false);
+                var message = new DiscordMessageBuilder().WithContent($"Post: {a}\nHas been deleted.");
                 Console.WriteLine($"\n{ctx.User.Username} Has initiated the DELETE command on post {a}\n" );
+                await ctx.Channel.SendMessageAsync(builder: message).ConfigureAwait(false);
                 static async void DeleteByName(string a)
                 {
                     MongoClient dbClient = new MongoClient("mongodb+srv://Gordon:gordo@csharpdb.llf1lah.mongodb.net/?retryWrites=true&w=majority");
