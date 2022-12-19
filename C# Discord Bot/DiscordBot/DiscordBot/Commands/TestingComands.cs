@@ -337,8 +337,8 @@ namespace DiscordBot.Commands
             public async Task Text(CommandContext ctx, string to, string body)
             {
                 #region
-                string accountSid = "AC08c7576b4620e3f0e7f595befd7b10c3";
-                string authToken = "4cdbaef6815e16121de3df83349eb7e5";
+                string accountSid = "";
+                string authToken = "";
                 #endregion
 
                 TwilioClient.Init(accountSid, authToken);
@@ -370,8 +370,8 @@ namespace DiscordBot.Commands
             public async Task Call(CommandContext ctx,string to, string say)
             {
                 #region
-                string accountSid = "AC08c7576b4620e3f0e7f595befd7b10c3";
-                string authToken = "4cdbaef6815e16121de3df83349eb7e5";
+                string accountSid = "";
+                string authToken = "";
                 #endregion
                 TwilioClient.Init(accountSid, authToken);
 
