@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/DiscordBot.csproj": {}
+    "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\DiscordBot.csproj": {}
   },
   "projects": {
-    "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/DiscordBot.csproj": {
+    "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\DiscordBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/DiscordBot.csproj",
+        "projectUniqueName": "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
         "projectName": "DiscordBot",
-        "projectPath": "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/DiscordBot.csproj",
-        "packagesPath": "/Users/gordonvlasic/.nuget/packages/",
-        "outputPath": "/Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/obj/",
+        "projectPath": "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\DiscordBot.csproj",
+        "packagesPath": "C:\\Users\\gordo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gordo\\Desktop\\Project Folders\\DiscordBot\\C# Discord Bot\\DiscordBot\\DiscordBot\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/gordonvlasic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\gordo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,6 +59,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.18.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[6.2.0, )"
             }
           },
           "imports": [
@@ -72,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

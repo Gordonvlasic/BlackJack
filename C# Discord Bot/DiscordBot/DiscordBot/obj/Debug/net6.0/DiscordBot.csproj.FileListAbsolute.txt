@@ -23,42 +23,6 @@ C:/Users/gordo/Desktop/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/ref
 C:/Users/gordo/Desktop/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.pdb
 C:/Users/gordo/Desktop/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.genruntimeconfig.cache
 C:/Users/gordo/Desktop/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/ref/DiscordBot.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.exe
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.deps.json
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.runtimeconfig.json
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.pdb
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/ConcurrentCollections.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DnsClient.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DSharpPlus.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DSharpPlus.CommandsNext.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DSharpPlus.Interactivity.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/Emzi0767.Common.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/MongoDB.Bson.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/MongoDB.Driver.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/MongoDB.Driver.Core.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/MongoDB.Libmongocrypt.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/Newtonsoft.Json.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/SharpCompress.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/Snappier.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/ZstdSharp.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/runtimes/linux/native/libmongocrypt.so
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/runtimes/osx/native/libmongocrypt.dylib
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/runtimes/win/native/mongocrypt.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.csproj.AssemblyReference.cache
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.AssemblyInfoInputs.cache
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.AssemblyInfo.cs
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.csproj.CoreCompileInputs.cache
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.csproj.CopyComplete
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/refint/DiscordBot.dll
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.pdb
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.genruntimeconfig.cache
-C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/ref/DiscordBot.dll
 /Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot
 /Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.deps.json
 /Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/bin/Debug/net6.0/DiscordBot.runtimeconfig.json
@@ -95,3 +59,45 @@ C:/Users/gordo/Desktop/Project Folders/DiscordBot/C# Discord Bot/DiscordBot/Disc
 /Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.pdb
 /Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/DiscordBot.genruntimeconfig.cache
 /Users/gordonvlasic/Desktop/DiscordBot/DiscordBotC-/C# Discord Bot/DiscordBot/DiscordBot/obj/Debug/net6.0/ref/DiscordBot.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DiscordBot.exe
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DiscordBot.deps.json
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DiscordBot.runtimeconfig.json
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DiscordBot.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DiscordBot.pdb
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\ConcurrentCollections.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DnsClient.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DSharpPlus.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DSharpPlus.CommandsNext.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\DSharpPlus.Interactivity.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Emzi0767.Common.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Snappier.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.csproj.AssemblyReference.cache
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.AssemblyInfoInputs.cache
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.AssemblyInfo.cs
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.csproj.CopyComplete
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\refint\DiscordBot.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.pdb
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\DiscordBot.genruntimeconfig.cache
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\obj\Debug\net6.0\ref\DiscordBot.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gordo\Desktop\Project Folders\DiscordBot\C# Discord Bot\DiscordBot\DiscordBot\bin\Debug\net6.0\Twilio.dll

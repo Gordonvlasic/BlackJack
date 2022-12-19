@@ -11,6 +11,9 @@ using DSharpPlus;
 using System.Text.Json;
 using MongoDB.Driver;
 using MongoDB.Bson;
+using Twilio;
+using Twilio.Rest.Api.V2010.Account;
+using Twilio.TwiML.Messaging;
 
 namespace DiscordBot.Commands
 {
@@ -329,6 +332,77 @@ namespace DiscordBot.Commands
 
 
                 }
+            }
+            [Command("Text")]
+            public async Task Text(CommandContext ctx, string to, string body)
+            {
+                #region
+                string accountSid = "AC08c7576b4620e3f0e7f595befd7b10c3";
+                string authToken = "4cdbaef6815e16121de3df83349eb7e5";
+                #endregion
+
+                TwilioClient.Init(accountSid, authToken);
+
+                var message = MessageResource.Create(
+                    body: body,
+                    from: new Twilio.Types.PhoneNumber("+18656720691"),
+                    to: new Twilio.Types.PhoneNumber($"+1{to}")
+                );
+
+                Console.WriteLine(message.Sid);
+                Console.WriteLine(message.From);
+                var textEmbed = new DiscordEmbedBuilder
+                {
+                    Title = $"{ctx.User.Username} Your Text has been successfully placed to: {to}",
+                    Description = $"With the content: {body}",
+                    Color = DiscordColor.CornflowerBlue
+                };
+
+                var textmessage = new DiscordMessageBuilder().AddEmbed(embed: textEmbed);
+                await ctx.Channel.SendMessageAsync(builder: textmessage).ConfigureAwait(false);
+
+                Console.WriteLine($"\n{ctx.User.Username} initiated the Text command.\nTo:{to}\nWith the contents of: {body}");
+
+                await Task.Delay(10000);
+                Console.WriteLine(message.Status);
+            }
+            [Command("Call")]
+            public async Task Call(CommandContext ctx,string to, string say)
+            {
+                #region
+                string accountSid = "AC08c7576b4620e3f0e7f595befd7b10c3";
+                string authToken = "4cdbaef6815e16121de3df83349eb7e5";
+                #endregion
+                TwilioClient.Init(accountSid, authToken);
+
+                var outgoingCallerId = OutgoingCallerIdResource.Fetch(
+                     pathSid: "AC08c7576b4620e3f0e7f595befd7b10c3"
+                );
+
+
+                Console.WriteLine(outgoingCallerId.FriendlyName);
+
+                var call = CallResource.Create(
+                twiml: new Twilio.Types.Twiml($"<Response><Say>{say}</Say></Response>"),
+                    from: new Twilio.Types.PhoneNumber("+18656720691"),
+                    to: new Twilio.Types.PhoneNumber($"+1{to}")
+                );
+               
+                Console.WriteLine(call.Sid);
+
+
+                var callEmbed = new DiscordEmbedBuilder
+                {
+                    Title = $"{ctx.User.Username} Your Call has been successfully placed to: {to}",
+                    Description = $"With the content: {say}",
+                    Color = DiscordColor.Red
+
+                };
+                var message = new DiscordMessageBuilder().AddEmbed(embed: callEmbed);
+
+                await ctx.Channel.SendMessageAsync(builder: message).ConfigureAwait(false);
+
+                Console.WriteLine($"\n{ctx.User.Username} initiated the Call command.\nTo:{to}\nWith the contents of: {say}");
             }
         }
     }
